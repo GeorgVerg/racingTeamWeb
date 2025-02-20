@@ -7,19 +7,42 @@
 body {
     background-color: var(--secondary-color);
     color: #333;
+    font-family: "Arial", sans-serif; /* Ensure a clean font */
 }
 
-.navbar {
+ .navbar {
     background-color: var(--primary-color);
+
+    padding: 10px 15px; /* Adds some breathing space */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+.navbar-nav {
+    flex-direction: row !important; /* Forces horizontal alignment */
+    gap: 15px; /* Adds spacing between items */
 }
 
 .navbar-brand, .nav-link {
     color: var(--secondary-color) !important;
 }
 
+.navbar-toggler {
+    border-color: var(--secondary-color); /* Ensures visibility */
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Makes the icon visible on dark backgrounds */
+}
+
 .footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 20px 0;
+    
     text-align: center;
+    
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 14px;
 }
+

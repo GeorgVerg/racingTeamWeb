@@ -15,25 +15,10 @@ class ourContactInfoView(TemplateView):
 class createRequestView(FormView):
     template_name = "contact/createRequest.html"
     form_class = ContactInfoForm
-    # form_class = ContactRequestForm
     success_url = reverse_lazy("contactUs-thanks")
 
     # def form_valid(self, form):
-
         ## form.send_email()
-
-
-        # contact_info_form = ContactRequestForm(self.request.POST)
-
-        # if contact_info_form.is_valid():
-        #     contact_info = contact_info_form.save()
-
-        #     request = form.save(commit=False)
-        #     request.contact_info = contact_info
-        #     request.save()
-            
-        #     return super().form_valid(form)
-        
         # return self.form_invalid(form)
 
     def get_context_data(self, **kwargs):
