@@ -54,11 +54,7 @@ class createRequestView(FormView):
             request_obj.contact_info = contact
             request_obj.save()
 
-            print(f"✅ Request saved successfully! ID: {request_obj.id}")
-
             return self.form_valid(contact_form)
-        
-        print("❌ Form errors:", contact_form.errors, request_form.errors)
         return self.form_invalid(contact_form)
 
 
