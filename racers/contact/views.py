@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, FormView
+from django.urls import reverse_lazy
 
 from .forms import ContactRequestForm, ContactInfoForm
 
@@ -15,7 +16,7 @@ class createRequestView(FormView):
     template_name = "contact/createRequest.html"
     form_class = ContactInfoForm
     # form_class = ContactRequestForm
-    success_url = "contactUs/thanks/"
+    success_url = reverse_lazy("contactUs-thanks")
 
     # def form_valid(self, form):
 
@@ -46,18 +47,18 @@ class createRequestView(FormView):
         request_form = ContactRequestForm(self.request.POST)
 
         if contact_form.is_valid() and request_form.is_valid():
-            contact = contact_form.save()
+            contact = contact_form.save(commit=False)
+            contact.save()
+
             request_obj = request_form.save(commit=False)
-
-            print(f"contact saved: {contact}")
-            print(f"request before save {request_obj}")
-
-            request_obj.contact = contact
+            request_obj.contact_info = contact
             request_obj.save()
 
-            print(f"request after save {request_obj}")
+            print(f"✅ Request saved successfully! ID: {request_obj.id}")
+
             return self.form_valid(contact_form)
         
+        print("❌ Form errors:", contact_form.errors, request_form.errors)
         return self.form_invalid(contact_form)
 
 
