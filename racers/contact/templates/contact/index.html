@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div>
+    <h1>Do you want to create a request or maybe send a direct email?</h1>
+</div>
+
+<div>
+    <ul>
+        <li><form action="{% url "contactUs-ourContactInfo"%}" method="get">
+            <button type="submit">Direct Email</button>
+        </form></li>
+    </ul>
+    <ul>
+        <li><form action="{% url "contactUs-createRequest" %}" method="get">
+            <button type="submit">Fill out a form</button>
+        </form>
+        </li>
+    </ul>
+</div>
+
+{% endblock content %}
