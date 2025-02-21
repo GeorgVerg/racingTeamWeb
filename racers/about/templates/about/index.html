@@ -1,5 +1,4 @@
 {% extends "base.html" %}
-{% block staticBlock %} {% load static %} {% endblock staticBlock %}
 {% block content %}
 
 <h1>About our team:</h1>
@@ -9,9 +8,9 @@
 
 {% if user.is_superuser %}
     {% if about.text is not null %}
-        <a href="{% url "about-edit" pk=about.id %}" class="btn btn-warning">Edit text</a>
+        <a href="{% url "about-edit" pk=about.id %}" class="btn btn-warning btn-hover">Edit text</a>
     {% else %}
-        <a href="{% url "about-create" %}" class="btn btn-success">Create text</a>
+        <a href="{% url "about-create" %}" class="btn btn-success btn-hover">Create text</a>
     {% endif %}
 {% endif %}
 

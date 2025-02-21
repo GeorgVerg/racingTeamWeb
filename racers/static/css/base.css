@@ -2,47 +2,110 @@
     --primary-color: #0d6efd; /* Bootstrap primary blue */
     --secondary-color: #ffffff; /* White */
     --accent-color: #ffc107; /* Bootstrap warning yellow */
+    --floating-bg: rgba(255, 255, 255, 0.1);
 }
 
 body {
-    background-color: var(--secondary-color);
-    color: #333;
-    font-family: "Arial", sans-serif; /* Ensure a clean font */
+    background: linear-gradient(135deg, #0d0f1e, #1a1d39);
+    color: #ffff;
+    overflow-x: hidden;
+
+    font-family: "Lato", sans-serif;
 }
 
- .navbar {
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: "Audiowide", sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar {
     background-color: var(--primary-color);
-
-    padding: 10px 15px; /* Adds some breathing space */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-
-.navbar-nav {
-    flex-direction: row !important; /* Forces horizontal alignment */
-    gap: 15px; /* Adds spacing between items */
 }
 
 .navbar-brand, .nav-link {
     color: var(--secondary-color) !important;
 }
 
-.navbar-toggler {
-    border-color: var(--secondary-color); /* Ensures visibility */
-}
-
-.navbar-toggler-icon {
-    filter: invert(1); /* Makes the icon visible on dark backgrounds */
-}
-
 .footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    
+    padding: 20px 0;
     text-align: center;
-    
-    padding: 15px 0;
-    margin-top: 20px;
-    font-size: 14px;
 }
 
+.floating-window {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 20px;
+    width: min(80%, 1150px);
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-hover {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+}
+
+.floating-window:has(>.hover):hover, .btn-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+}
+
+.background-shapes {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    overflow: hidden;
+}
+
+.background-shapes::before,
+.background-shapes::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(13, 110, 253, 0.4) 0%, rgba(13, 110, 253.0) 70%);
+    filter: blur(80px);
+    border-radius: 50%;
+}
+
+.background-shapes::before {
+    top: 10%;
+    left: 15%;
+    animation: moveShapes 10s infinite alternate ease-in-out;
+}
+
+.background-shapes::after{
+    bottom: 10%;
+    right: 15%;
+    animation: moveShapesReversed 10s infinite alternate ease-in-out;
+}
+
+@keyframes moveShapes {
+    0% {
+        transform: translateY(10%) translateX(10%);
+    }
+    50% {
+        transform: translateY(10%) translateX(90%);
+    }
+    100% {
+        transform: translateY(90%) translateX(90%);
+    }
+}
+
+@keyframes moveShapesReversed {
+    0% {
+        transform: translateY(100%) translateX(90%);
+    }
+    50% {
+        transform: translateY(90%) translateX(10%);
+    }
+    100% {
+        transform: translateY(10%) translateX(10%);
+    }
+}

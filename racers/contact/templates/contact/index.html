@@ -1,22 +1,29 @@
 {% extends "base.html" %}
+{% load static %}
+
+{% block stylesheetBlock %}
+    <link rel="stylesheet" href={% static 'contact/css/base.css' %}>
+{% endblock stylesheetBlock %}
+
 {% block content %}
 
-<div>
     <h1>Do you want to create a request or maybe send a direct email?</h1>
-</div>
 
-<div>
-    <ul>
-        <li><form action="{% url "contactUs-ourContactInfo"%}" method="get">
-            <button type="submit">Direct Email</button>
-        </form></li>
-    </ul>
-    <ul>
-        <li><form action="{% url "contactUs-createRequest" %}" method="get">
-            <button type="submit">Fill out a form</button>
-        </form>
-        </li>
-    </ul>
-</div>
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <form action="{% url "contactUs-ourContactInfo"%}" method="get">
+                        <button type="submit" class="btn btn-warning btn-hover">Direct Email</button>
+                    </form>
+                </td>
+                <td>
+                    <form action="{% url "contactUs-createRequest" %}" method="get">
+                        <button type="submit" class="btn btn-warning btn-hover">Fill out a form</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>  
 
 {% endblock content %}
