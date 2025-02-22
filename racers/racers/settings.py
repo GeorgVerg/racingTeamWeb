@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "contact",
     "about",
     "goal",
+    "competition",
 ]
 
 MIDDLEWARE = [

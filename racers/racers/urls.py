@@ -24,5 +24,6 @@ urlpatterns = [
     path("", index.as_view(), name="index"),
     path("contact-us/", include("contact.urls")),
     path("about/", include("about.urls")),
-    path("goal/", include("goal.urls"))
+    path("goal/", include("goal.urls")),
+    path("competition", include("competition.urls"))
 ]
