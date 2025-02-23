@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-5fc%oz36=bl)3ys4&3c@7ffa@yq+z!z7tnuw9e)%($_*6)n^l*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["dsaracingteam.onrender.com"]
 
 
 # Application definition
@@ -134,6 +134,10 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
+
+
+MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
