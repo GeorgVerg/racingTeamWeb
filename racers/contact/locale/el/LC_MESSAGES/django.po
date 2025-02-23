@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-23 01:22+0200\n"
+"POT-Creation-Date: 2025-02-23 17:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: contact/templates/contact/createRequest.html:12
 msgid "Fill out this form and we will get in contact with you"
 msgstr "Συμπληρώστε αυτή τη φόρμα και θα επικοινωνήσουμε μαζί σας"
@@ -45,9 +46,17 @@ msgstr "Απευθείας Email"
 msgid "Fill out a form"
 msgstr "Συμπληρώστε μια φόρμα"
 
-#: contact/templates/contact/ourContactInfo.html:5
+#: contact/templates/contact/ourContactInfo.html:11
 msgid "Here you will find our contact info"
 msgstr "Εδώ θα βρείτε τα στοιχεία επικοινωνίας μας"
+
+#: contact/templates/contact/ourContactInfo.html:15
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: contact/templates/contact/ourContactInfo.html:16
+msgid "Address"
+msgstr "Διεύθυνση"
 
 #: contact/templates/contact/thanks.html:5
 msgid "Thank you for contacting us"

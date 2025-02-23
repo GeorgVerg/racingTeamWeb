@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-23 03:03+0200\n"
+"POT-Creation-Date: 2025-02-23 17:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,10 +54,6 @@ msgstr "Der Wettbewerb"
 msgid "Contact Us"
 msgstr "Kontaktieren Sie uns"
 
-#: templates/base.html:34
-msgid "Language"
-msgstr "Sprache"
-
 #: templates/base.html:57
 msgid "Quick Links"
 msgstr "Quicklinks"
@@ -79,8 +75,8 @@ msgid "Follow Us"
 msgstr "Folgen Sie uns"
 
 #: templates/index.html:6
-msgid "This is index"
-msgstr "Kein guter Titel"
+msgid "DSA Racing Team"
+msgstr "DSA Racing Team"
 
 #: templates/index.html:7
 msgid ""
@@ -92,4 +88,4 @@ msgid ""
 "the event and we have set as our goal the participation and distinction in "
 "the national finals. Along the way we want to develop various skills such as "
 "3D design, knowledge in the field of aerodynamics and marketing."
-msgstr ""
+msgstr "Das DSA Racing Team ist ein Schulteam der Deutschen Schule Athen, das aus Gymnasiasten besteht und am internationalen F1-In Schools-Event teilnimmt, das unter der Schirmherrschaft der Formel 1 und der FIA organisiert wird. Unser Team wurde aus einer Initiative von Schülern gegründet und erhielt tatkräftige Unterstützung von der Schulleitung. Dieses Jahr nehmen wir zum ersten Mal an der Veranstaltung teil und haben uns zum Ziel gesetzt, im nationalen Finale dabei zu sein und uns hervorzuheben. Dabei wollen wir verschiedene Fähigkeiten wie 3D-Design, Kenntnisse im Bereich Aerodynamik und Marketing weiterentwickeln."

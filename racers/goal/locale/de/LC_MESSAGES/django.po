@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-23 01:22+0200\n"
+"POT-Creation-Date: 2025-02-23 17:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: goal/templates/goal/index.html:5
-msgid "This is the team's goal"
-msgstr "Das ist das Ziel des Teams"
+msgid "Our Team's Goal"
+msgstr "Das Ziel unseres Teams"
 
 #: goal/templates/goal/index.html:7
-msgid "big ahh text about the goal and how they got the inspo and shi"
-msgstr "Gibt's noch kein guter originaler text"
+msgid "Our Team's Goal ... in detail"
+msgstr "Das Ziel unseres Teams ... im Detail"
+
+#~ msgid "This is the team's goal"
+#~ msgstr "Das ist das Ziel des Teams"
+
+#~ msgid "big ahh text about the goal and how they got the inspo and shi"
+#~ msgstr "Gibt's noch kein guter originaler text"
