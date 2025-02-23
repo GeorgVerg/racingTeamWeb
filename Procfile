@@ -1,1 +1,1 @@
-web: gunicorn racers.wsgi
+web: gunicorn racers.racers.wsgi
