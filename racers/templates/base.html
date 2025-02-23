@@ -1,10 +1,11 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}F1 in Schools - Team{% endblock %}</title>
+    <title>{% block title %}{% trans "F1 in Schools - Team" %}{% endblock %}</title>
     
     <link rel="stylesheet" href={% static "css/bootstrap/dist/css/bootstrap.min.css" %}>
     <link rel="stylesheet" href={% static 'css/base.css' %}>
@@ -18,16 +19,26 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="{% url 'index' %}">F1 Team</a>
+            <a class="navbar-brand" href="{% url 'index' %}">{% trans "F1 Team" %}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="{% url "about-index" %}">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url "goal-index" %}">The Goal</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#competition">The Competition</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'contactUs-index' %}">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url "about-index" %}">{% trans "About Us" %}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url "goal-index" %}">{% trans "The Goal" %}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url "competition-index" %}">{% trans "The Competition" %}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'contactUs-index' %}">{% trans "Contact Us" %}</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">🌍 {% trans "Language" %}</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{% url 'set_language' %}?language=en" class="dropdown-item">🇬🇧 English</a></li>
+                            <li><a href="{% url 'set_language' %}?language=el" class="dropdown-item">🇬🇷 Ελληνικά</a></li>
+                            <li><a href="{% url 'set_language' %}?language=de" class="dropdown-item">🇩🇪 Deutsch</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -43,24 +54,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h5>Quick Links</h5>
+                    <h5>{% trans "Quick Links" %}</h5>
                     <ul class="list-unstyled">
-                        <li><a href="{% url "index" %}">Home</a></li>
-                        <li><a href="{% url "about-index" %}">About Us</a></li>
-                        <li><a href="{% url "goal-index" %}">The Goal</a></li>
-                        <li><a href="{% url "competition-index" %}">The Competition</a></li>
-                        <li><a href="{% url "contactUs-index" %}">Contact Us</a></li>
+                        <li><a href="{% url "index" %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url "about-index" %}">{% trans "About Us" %}</a></li>
+                        <li><a href="{% url "goal-index" %}">{% trans "The Goal" %}</a></li>
+                        <li><a href="{% url "competition-index" %}">{% trans "The Competition" %}</a></li>
+                        <li><a href="{% url "contactUs-index" %}">{% trans "Contact Us" %}</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-4">
-                    <h5>Contact</h5>
+                    <h5>{% trans "Contact" %}</h5>
                     <p>Email: <a href="mailto:geor.verg@gmail.com">geor.verg@gmail.com</a></p>
-                    <p>Phone: +30 698 777 6601</p>
+                    <p>{% trans "Phone" %}: +30 698 777 6601</p>
                 </div>
 
                 <div class="col-md-4">
-                    <h5>Follow Us:</h5>
+                    <h5>{% trans "Follow Us" %}:</h5>
                     <a href="https://www.instagram.com/dsa.racingteam" target="_blank" class="text-light mx-2">Instagram</a> | 
                     <a href="https://www.facebook.com/" target="_blank" class="text-light mx-2">Facebook</a> |
                     <a href="https://x.com/" target="_blank" class="text-light mx-2">Twitter</a>

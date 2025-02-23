@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load i18n %}
 
 {% block stylesheetBlock %}
 <link rel="stylesheet" href="{% static 'contact/css/base.css' %}">
@@ -8,21 +9,21 @@
 {% block content %}
 <div class="container mt-5">
     <div class="p-4">
-        <h1 class="text-center">Fill out this form and we will get in contact with you</h1>
+        <h1 class="text-center">{% trans "Fill out this form and we will get in contact with you" %}</h1>
         <form method="post" class="mt-4">
             {% csrf_token %}
-            <h2 class="mb-3">Contact Information</h2>
+            <h2 class="mb-3">{% trans "Contact Information" %}</h2>
             <div class="mb-3">
                 {{ form.as_p }}
             </div>
 
-            <h2 class="mb-3">Details</h2>
+            <h2 class="mb-3">{% trans "Details" %}</h2>
             <div class="mb-3">
                 {{ request_form.as_p }}
             </div>
 
             <div class="text-center">
-                <button type="submit" class="btn btn-warning btn-hover">Submit</button>
+                <button type="submit" class="btn btn-warning btn-hover">{% trans "Submit" %}</button>
             </div>
         </form>
     </div>

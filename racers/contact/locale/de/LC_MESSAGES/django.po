@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-23 01:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: contact/templates/contact/createRequest.html:12
+msgid "Fill out this form and we will get in contact with you"
+msgstr "Füllen Sie dieses Formular aus und wir werden uns mit Ihnen in Verbindung setzen"
+
+#: contact/templates/contact/createRequest.html:15
+msgid "Contact Information"
+msgstr "Kontaktinformationen"
+
+#: contact/templates/contact/createRequest.html:20
+msgid "Details"
+msgstr "Einzelheiten"
+
+#: contact/templates/contact/createRequest.html:26
+msgid "Submit"
+msgstr "Einreichen"
+
+#: contact/templates/contact/index.html:11
+msgid "Do you want to create a request or maybe send a direct email?"
+msgstr "Möchten Sie eine Anfrage erstellen oder vielleicht eine direkte E-Mail senden?"
+
+#: contact/templates/contact/index.html:18
+msgid "Direct Email"
+msgstr "Direkte E-Mail"
+
+#: contact/templates/contact/index.html:23
+msgid "Fill out a form"
+msgstr "Füllen Sie ein Formular aus"
+
+#: contact/templates/contact/ourContactInfo.html:5
+msgid "Here you will find our contact info"
+msgstr "Hier finden Sie unsere Kontaktdaten"
+
+#: contact/templates/contact/thanks.html:5
+msgid "Thank you for contacting us"
+msgstr "Vielen Dank, dass Sie uns kontaktiert haben"

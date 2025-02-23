@@ -17,13 +17,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from .views import index
+from .views import index, set_language
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", index.as_view(), name="index"),
+    path("set-language/", set_language, name="set_language"),
+
     path("contact-us/", include("contact.urls")),
     path("about/", include("about.urls")),
     path("goal/", include("goal.urls")),
-    path("competition", include("competition.urls"))
+    path("competition", include("competition.urls")),
 ]
