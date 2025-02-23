@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-23 01:22+0200\n"
+"POT-Creation-Date: 2025-02-23 03:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,70 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: about/templates/about/index.html:5
+
+#: about/templates/about/index.html:11
 msgid "About our team"
 msgstr "Über unser Team"
 
-#: about/templates/about/index.html:6
-msgid "Big ahh text about our team"
-msgstr "Gibt's noch kein guter originaler text"
+#: about/templates/about/index.html:12
+msgid ""
+"The DSA Racing Team is a school team of the German School of Athens, which "
+"consists of high school students and takes part in the international F1-In "
+"Schools event organized under the auspices of Formula 1 and the FIA. Our "
+"team was founded on the initiative of school students and found warm support "
+"from the administration. This year is our first attempt to participate in "
+"the event and we have set as our goal the participation and distinction in "
+"the national finals. Along the way we want to develop various skills such as "
+"3D design, knowledge in the field of aerodynamics and marketing."
+msgstr "Das DSA Racing Team ist ein Schulteam der Deutschen Schule Athen, das aus Gymnasiasten besteht und am internationalen F1-In Schools-Event teilnimmt, das unter der Schirmherrschaft der Formel 1 und der FIA organisiert wird. Unser Team wurde aus einer Initiative von Schülern gegründet und erhielt tatkräftige Unterstützung von der Schulleitung. Dieses Jahr nehmen wir zum ersten Mal an der Veranstaltung teil und haben uns zum Ziel gesetzt, im nationalen Finale dabei zu sein und uns hervorzuheben. Dabei wollen wir verschiedene Fähigkeiten wie 3D-Design, Kenntnisse im Bereich Aerodynamik und Marketing weiterentwickeln."
+
+#: about/templates/about/index.html:16
+msgid ""
+"Our team is divided into four smaller teams with the ultimate goal of "
+"achieving our project better and more efficiently. Each sub-team deals with "
+"different areas, such as aerodynamics, finances, social media and the "
+"composition of the work."
+msgstr "Unser Team ist in vier kleinere Teams aufgeteilt, deren übergeordnetes Ziel es ist, unsere Projekte besser und effizienter umzusetzen. Jede Untergruppe beschäftigt sich mit unterschiedlichen Bereichen, wie etwa Aerodynamik, Wirtschaft, soziale Medien und Aufgabenzusammensetzung."
+
+#: about/templates/about/index.html:18
+msgid ""
+"The aerodynamics department consists of four people (Michael Giannakis, "
+"Marina Vachatela, Theoklitos-Kriton Petrakis, Eleni Dimitriou). In this "
+"area, the specific members of the team perfect every element of the F1 model "
+"for its prominence in the showdown Games."
+msgstr "Die Aerodynamikabteilung besteht aus vier Personen (Michael Giannakis, Marina Vachatela, Theoklitos-Kriton Petrakis, Eleni Dimitriou). In diesem Raum perfektionieren diese Teammitglieder jedes Element des F1-Modells für seine Präsentation in den Showdown-Spielen."
+
+#: about/templates/about/index.html:20
+msgid ""
+"The financial department consists of two main parts: In the first, the "
+"members (Konstantinos Mistriotis, Nikos Gerogiorgis, Iasonas Theodorou, "
+"Christos Arvanitis) undertake the search for sponsors and the creation of a "
+"feasible financial plan. In the second part, the same aforementioned members "
+"deal with project management. That is, they focus on the correct and smooth "
+"flow of work with the aim of achieving the deadlines."
+msgstr "Die Finanzabteilung besteht aus zwei Hauptteilen: Im ersten Teil übernehmen die Mitglieder (Konstantinos Mistriotis, Nikos Gerogiorgis, Iasonas Theodorou, Christos Arvanitis) die Aufgabe, Sponsoren zu finden und einen realisierbaren Finanzplan zu erstellen. Im zweiten Teil befassen sich dieselben oben genannten Mitglieder mit der Leitung des Projekts. Das heißt, sie legen ihren Schwerpunkt auf den korrekten und reibungslosen Arbeitsablauf mit dem Ziel, Termine einzuhalten."
+
+#: about/templates/about/index.html:22
+msgid ""
+"Then, a large member of our team consists of the social media department. "
+"The members of this subgroup (Evelina Stathi, Angeliki Anastasopoulou, "
+"Dorothea Lioganos Kyriaki, Georgios Vergos, Melita Lambrinopoulou) promote "
+"the team on digital applications, such as Instagram, and on our website. By "
+"promoting the team, the approach of new members is achieved at the same "
+"time, with the aim of continuing our team by the coming generations. An "
+"equally important aspect that contributes significantly to the success of "
+"our team is that of the composition of the work. In this area, the members "
+"(George Karagiannis, Michael Giannakis, Theodoros Kofinas) process the "
+"results from the other subgroups and synthesize them into the final works."
+msgstr "Dann macht die Social Media Abteilung einen großen Teil unseres Teams aus. Die Mitglieder dieser Untergruppe (Evelina Stathi, Angeliki Anastasopoulou, Dorothea Lioganos Kyriaki, Georgios Vergos, Melita Lambrinopoulou) machen in digitalen Anwendungen wie Instagram und auf unserer Website Werbung für die Gruppe. Durch die Förderung der Gruppe erreichen wir zudem die Gewinnung neuer Mitglieder, mit dem Ziel, unsere Gruppe auch über zukünftige Generationen hinweg fortzuführen. Ein ebenso wichtiger Aspekt, der maßgeblich zum Erfolg unseres Teams beiträgt, ist die Zusammenstellung der Arbeiten. In diesem Bereich verarbeiten die Mitglieder (George Karagiannis, Michael Giannakis, Theodoros Kofinas) die Ergebnisse der anderen Untergruppen und fassen sie in den Abschlussarbeiten zusammen."
+
+#: about/templates/about/index.html:24
+msgid ""
+"Finally, for the coordination of our entire project, the team leader "
+"(Theodoros Kofinas) together with the responsible professor (Konstantinos "
+"Tsikopoulos-Tsokolar) must be available to all departments and help where "
+"needed. Clearly, no work is sent without the consent of all team members!"
+msgstr "Schleßlich muss der Teamleiter (Theodoros Kofinas) zusammen mit dem verantwortlichen Professor (Konstantinos Tsikopoulos-Tsokolar) für die Koordination unseres gesamten Projekts allen Abteilungen zur Verfügung stehen und bei Bedarf helfen. Selbstverständlich erfolgt keine Versendung von Arbeiten ohne Einverständnis aller Teammitglieder!"
+
+#~ msgid "Big ahh text about our team"
+#~ msgstr "Gibt's noch kein guter originaler text"

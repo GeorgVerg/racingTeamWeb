@@ -15,12 +15,12 @@
             <tr>
                 <td>
                     <form action="{% url "contactUs-ourContactInfo"%}" method="get">
-                        <button type="submit" class="btn btn-warning btn-hover">{% trans "Direct Email" %}</button>
+                        <button type="submit" class="btn btn-warning btn-hover" id="hover">{% trans "Direct Email" %}</button>
                     </form>
                 </td>
                 <td>
                     <form action="{% url "contactUs-createRequest" %}" method="get">
-                        <button type="submit" class="btn btn-warning btn-hover">{% trans "Fill out a form" %}</button>
+                        <button type="submit" class="btn btn-warning btn-hover" id="hover">{% trans "Fill out a form" %}</button>
                     </form>
                 </td>
             </tr>
