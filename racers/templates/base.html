@@ -19,7 +19,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="{% url 'index' %}">{% trans "F1 Team" %}</a>
+            <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static "images/Logos/teamLogo.jpg" %}" class="logo" id="teamLogo" alt="">{% trans "F1 Team" %}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -72,9 +72,9 @@
 
                 <div class="col-md-4">
                     <h5>{% trans "Follow Us" %}:</h5>
-                    <a href="https://www.instagram.com/dsa.racingteam" target="_blank"><img src="{% static "images/Logos/instagram.png" %}" alt="" style="height: 25%; width: 10%; object-fit: contain;"></a> | 
-                    <a href="https://gr.linkedin.com/in/dsa-racing-731090359" target="_blank"><img src="{% static "images/Logos/linkedIn.png" %}" alt="" style="height: 25%; width: 25%; object-fit: contain; background-color: white; padding: 10px;  border-radius: 25px;"></a> | 
-                    <a href="https://www.facebook.com/profile.php?id=61573032197997" target="_blank"><img src="{% static "images/Logos/facebook.png" %}" alt="" style="height: 25%; width: 10%; object-fit: contain; background-color: white; padding: 5px; border-radius: 10px"></a>
+                    <a href="https://www.instagram.com/dsa.racingteam" target="_blank"><img src="{% static "images/Logos/instagram.png" %}" alt="" class="logo" id="instagram"></a> | 
+                    <a href="https://gr.linkedin.com/in/dsa-racing-731090359" target="_blank"><img src="{% static "images/Logos/linkedIn.png" %}" alt="" class="logo" id="linkedIn"></a> | 
+                    <a href="https://www.facebook.com/profile.php?id=61573032197997" target="_blank"><img src="{% static "images/Logos/facebook.png" %}" alt="" class="logo" id="facebook"></a>
                 </div>
             </div>
         </div>
