@@ -15,7 +15,7 @@ class ContactInfoForm(ModelForm):
 class ContactRequestForm(ModelForm):
     class Meta:
         model = ContactRequest
-        fields = ["requestTitle", "request"]
+        fields = ["requestTitle", "reason_for_the_inquiry", "request"]
 
         labels = {
             "requestTitle":"Inquiry title",
