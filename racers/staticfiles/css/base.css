@@ -85,4 +85,29 @@ h1, h2, h3, h4, h5 ,h6 {
 .floating-window:has(>.hover):hover, .btn-hover:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+img.logo{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+img.logo#linkedIn{
+    width: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+img.logo#facebook{
+    background-color: white; 
+    padding: 5px;
+    border-radius: 10px
+}
+
+img.logo#teamLogo{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 5px;
 }

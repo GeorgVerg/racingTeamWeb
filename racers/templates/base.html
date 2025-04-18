@@ -19,15 +19,16 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="{% url 'index' %}">{% trans "F1 Team" %}</a>
+            <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static "images/Logos/teamLogo.jpg" %}" class="logo" id="teamLogo" alt="">{% trans "F1 Team" %}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="{% url "about-index" %}">{% trans "About Us" %}</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url "goal-index" %}">{% trans "The Goal" %}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url "goal-index" %}">{% trans "Our Goal" %}</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url "competition-index" %}">{% trans "The Competition" %}</a></li>
+                    <li class="nav-item"><a href="{% url "sponsorships-index" %}" class="nav-link">{% trans "Sponsorships" %}</a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'contactUs-index' %}">{% trans "Contact Us" %}</a></li>
 
                     <li class="nav-item dropdown">
@@ -58,7 +59,7 @@
                     <ul class="list-unstyled">
                         <li><a href="{% url "index" %}">{% trans "Home" %}</a></li>
                         <li><a href="{% url "about-index" %}">{% trans "About Us" %}</a></li>
-                        <li><a href="{% url "goal-index" %}">{% trans "The Goal" %}</a></li>
+                        <li><a href="{% url "goal-index" %}">{% trans "Our Goal" %}</a></li>
                         <li><a href="{% url "competition-index" %}">{% trans "The Competition" %}</a></li>
                         <li><a href="{% url "contactUs-index" %}">{% trans "Contact Us" %}</a></li>
                     </ul>
@@ -66,15 +67,15 @@
 
                 <div class="col-md-4">
                     <h5>{% trans "Contact" %}</h5>
-                    <p>Email: <a href="mailto:geor.verg@gmail.com">geor.verg@gmail.com</a></p>
-                    <p>{% trans "Phone" %}: +30 698 777 6601</p>
+                    <p>Email: <a href="mailto:racingteam@dsathen.gr">racingteam@dsathen.gr</a></p>
+                    <p>{% trans "Phone" %}: +30 211 777 4500</p>
                 </div>
 
                 <div class="col-md-4">
                     <h5>{% trans "Follow Us" %}:</h5>
-                    <a href="https://www.instagram.com/dsa.racingteam" target="_blank">Instagram</a> | 
-                    <a href="https://www.facebook.com/" target="_blank">Facebook</a> |
-                    <a href="https://x.com/" target="_blank">X</a>
+                    <a href="https://www.instagram.com/dsa.racingteam" target="_blank"><img src="{% static "images/Logos/instagram.png" %}" alt="" class="logo" id="instagram"></a> | 
+                    <a href="https://gr.linkedin.com/in/dsa-racing-731090359" target="_blank"><img src="{% static "images/Logos/linkedIn.png" %}" alt="" class="logo" id="linkedIn"></a> | 
+                    <a href="https://www.facebook.com/profile.php?id=61573032197997" target="_blank"><img src="{% static "images/Logos/facebook.png" %}" alt="" class="logo" id="facebook"></a>
                 </div>
             </div>
         </div>

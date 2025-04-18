@@ -3,80 +3,221 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-23 17:30+0200\n"
+"POT-Creation-Date: 2025-04-18 21:06+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language-Team: Greek <LL@li.org>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: racers/settings.py:147
+#: racers/settings.py:153
 msgid "English"
-msgstr "Αγγλικά"
+msgstr ""
 
-#: racers/settings.py:148
+#: racers/settings.py:154
 msgid "German"
-msgstr "Γερμανικά"
+msgstr ""
 
-#: racers/settings.py:149
+#: racers/settings.py:155
 msgid "Greek"
-msgstr "Ελληνικά"
+msgstr ""
+
+#: sponsorships/templates/sponsorships/index.html:9 templates/base.html:31
+msgid "Sponsorships"
+msgstr "Χορηγίες"
+
+#: sponsorships/templates/sponsorships/index.html:10
+msgid ""
+"We are a passionate team of students from the Deutsche Schule Athen, "
+"participating in the prestigious F1 in Schools program. This global "
+"competition challenges us to design, build, and race miniature Formula 1 "
+"cars, fostering innovation, teamwork, and engineering excellence.Your "
+"support can help us achieve our goals and represent our school on an "
+"international stage. By becoming a sponsor, you will not only empower young "
+"minds but also gain visibility and recognition through our journey.Join us "
+"in driving towards success!"
+msgstr ""
+"Είμαστε μια παθιασμένη ομάδα μαθητών από τη Γερμανική Σχολή Αθηνών, που "
+"συμμετέχει στο διάσημο πρόγραμμα F1 in Schools. Αυτός ο παγκόσμιος "
+"διαγωνισμός μας προκαλεί να σχεδιάσουμε, να κατασκευάσουμε και να "
+"αγωνιστούμε με μινιατούρες αυτοκινήτων Formula 1, προάγοντας την καινοτομία, "
+"την ομαδική εργασία και την τεχνολογική αριστεία.Η υποστήριξή σας μπορεί να "
+"μας βοηθήσει να πετύχουμε τους στόχους μας και να εκπροσωπήσουμε το σχολείο "
+"μας σε διεθνές επίπεδο. Ως χορηγός, δεν ενισχύετε μόνο νέους ανθρώπους, αλλά "
+"κερδίζετε και προβολή και αναγνώριση μέσα από το ταξίδι μας.Ελάτε μαζί μας "
+"για να οδηγήσουμε προς την επιτυχία!"
+
+#: sponsorships/templates/sponsorships/index.html:12
+msgid "Why Sponsor Us?"
+msgstr "Γιατί να μας υποστηρίξετε;"
+
+#: sponsorships/templates/sponsorships/index.html:13
+msgid ""
+"Sponsoring our team is not just about supporting a group of students; it's "
+"about investing in the future of engineering and technology. By partnering "
+"with us, you will:"
+msgstr ""
+"Η χορηγία της ομάδας μας δεν σημαίνει απλώς υποστήριξη μιας ομάδας μαθητών, "
+"αλλά επένδυση στο μέλλον της μηχανικής και της τεχνολογίας. Συνεργαζόμενοι "
+"μαζί μας, θα:"
+
+#: sponsorships/templates/sponsorships/index.html:15
+msgid "Support education and innovation in the field of engineering."
+msgstr ""
+"Υποστηρίξετε την εκπαίδευση και την καινοτομία στον τομέα της μηχανικής."
+
+#: sponsorships/templates/sponsorships/index.html:16
+msgid ""
+"Gain visibility through our promotional materials, social media, and events."
+msgstr ""
+"Αποκτήσετε προβολή μέσω των διαφημιστικών μας υλικών, των κοινωνικών δικτύων "
+"και των εκδηλώσεων."
+
+#: sponsorships/templates/sponsorships/index.html:17
+msgid ""
+"Be part of a community that values teamwork, creativity, and excellence."
+msgstr ""
+"Γίνετε μέλος μιας κοινότητας που εκτιμά την ομαδική εργασία, τη "
+"δημιουργικότητα και την αριστεία."
+
+#: sponsorships/templates/sponsorships/index.html:18
+msgid "Help us compete at national and international levels."
+msgstr "Βοηθήστε μας να διαγωνιστούμε σε εθνικό και διεθνές επίπεδο."
+
+#: sponsorships/templates/sponsorships/index.html:19
+msgid "Inspire the next generation of engineers and innovators."
+msgstr "Εμπνεύσετε την επόμενη γενιά μηχανικών και καινοτόμων."
+
+#: sponsorships/templates/sponsorships/index.html:22
+msgid "How to Sponsor Us"
+msgstr "Πώς να μας υποστηρίξετε"
+
+#: sponsorships/templates/sponsorships/index.html:23
+msgid ""
+"If you are interested in sponsoring our team, please reach out to us via "
+"email at "
+msgstr ""
+"Αν ενδιαφέρεστε να γίνετε χορηγός της ομάδας μας, επικοινωνήστε μαζί μας στο "
+"email "
+
+#: sponsorships/templates/sponsorships/index.html:23
+msgid " or contact us through the "
+msgstr " ή επικοινωνήστε μαζί μας μέσω της "
+
+#: sponsorships/templates/sponsorships/index.html:23
+msgid ""
+"form on our website</a>. We would be happy to discuss sponsorship "
+"opportunities and how we can work together to achieve our goals."
+msgstr ""
+"φόρμας στην ιστοσελίδα μας</a>. Θα χαρούμε να συζητήσουμε δυνατότητες "
+"χορηγίας και τρόπους συνεργασίας για την επίτευξη των στόχων μας."
+
+#: sponsorships/templates/sponsorships/index.html:25
+msgid "Sponsorship Tiers"
+msgstr "Επίπεδα Χορηγίας"
+
+#: sponsorships/templates/sponsorships/index.html:26
+msgid ""
+"We offer various sponsorship tiers to accommodate different levels of "
+"support. Each tier comes with its own set of benefits, ensuring that your "
+"contribution is recognized and appreciated."
+msgstr ""
+"Προσφέρουμε διάφορα επίπεδα χορηγίας για να καλύψουμε διαφορετικά επίπεδα "
+"υποστήριξης. Κάθε βαθμίδα συνοδεύεται από το δικό της σύνολο πλεονεκτημάτων, "
+"διασφαλίζοντας ότι η συνεισφορά σας αναγνωρίζεται και εκτιμάται."
+
+#: sponsorships/templates/sponsorships/index.html:28
+msgid ""
+"Of course, if you wish to support us with a different amount or contribute "
+"by giving us raw materials, we are open to discussing custom sponsorship "
+"options that suit your needs."
+msgstr ""
+"Φυσικά, αν επιθυμείτε να μας υποστηρίξετε με διαφορετικό ποσό ή με υλικά, "
+"είμαστε ανοιχτοί σε προσαρμοσμένες μορφές χορηγίας σύμφωνα με τις "
+"δυνατότητές σας."
+
+#: sponsorships/templates/sponsorships/index.html:34
+msgid "Benefits"
+msgstr "Οφέλη"
+
+#: sponsorships/templates/sponsorships/index.html:43
+msgid "Mention in social media posts"
+msgstr "Αναφορά σε αναρτήσεις στα κοινωνικά δίκτυα"
+
+#: sponsorships/templates/sponsorships/index.html:50
+msgid "Mention on the team's website"
+msgstr "Αναφορά στην ιστοσελίδα της ομάδας"
+
+#: sponsorships/templates/sponsorships/index.html:57
+msgid "Mention in portfolios"
+msgstr "Αναφορά στα portfolios"
+
+#: sponsorships/templates/sponsorships/index.html:64
+msgid "Mention at the team's booth during national finals"
+msgstr "Αναφορά στον πάγκο της ομάδας κατά τους εθνικούς τελικούς"
+
+#: sponsorships/templates/sponsorships/index.html:71
+msgid "Mention on the team's apparel"
+msgstr "Αναφορά στις στολές της ομάδας"
+
+#: sponsorships/templates/sponsorships/index.html:78
+msgid "Mention on the team's car"
+msgstr "Αναφορά στο αυτοκίνητο της ομάδας"
 
 #: templates/base.html:8
 msgid "F1 in Schools - Team"
-msgstr "F1 in Schools - Team"
+msgstr ""
 
 #: templates/base.html:22
 msgid "F1 Team"
 msgstr "Ομάδα F1"
 
-#: templates/base.html:28 templates/base.html:60
+#: templates/base.html:28 templates/base.html:61
 msgid "About Us"
 msgstr "Σχετικά με εμάς"
 
-#: templates/base.html:29 templates/base.html:61
-msgid "The Goal"
-msgstr "Ο σκοπός μας"
+#: templates/base.html:29 templates/base.html:62
+msgid "Our Goal"
+msgstr "Ο στόχος μας"
 
-#: templates/base.html:30 templates/base.html:62
+#: templates/base.html:30 templates/base.html:63
 msgid "The Competition"
-msgstr "Ο Διαγωνισμός"
+msgstr "Ο διαγωνισμός"
 
-#: templates/base.html:31 templates/base.html:63
+#: templates/base.html:32 templates/base.html:64
 msgid "Contact Us"
 msgstr "Επικοινωνήστε μαζί μας"
 
-#: templates/base.html:57
+#: templates/base.html:58
 msgid "Quick Links"
-msgstr "Γρήγοροι Σύνδεσμοι"
+msgstr "Γρηγοροι συνδεσμοι"
 
-#: templates/base.html:59
+#: templates/base.html:60
 msgid "Home"
-msgstr "Αρχική"
+msgstr ""
 
-#: templates/base.html:68
+#: templates/base.html:69
 msgid "Contact"
-msgstr "Επαφη"
+msgstr "Επικοινωνηστε μαζι μας"
 
-#: templates/base.html:70
+#: templates/base.html:71
 msgid "Phone"
 msgstr "Τηλέφωνο"
 
-#: templates/base.html:74
+#: templates/base.html:75
 msgid "Follow Us"
 msgstr "Ακολουθηστε μας"
 
 #: templates/index.html:6
 msgid "DSA Racing Team"
-msgstr "DSA Racing Team"
+msgstr ""
 
 #: templates/index.html:7
 msgid ""
@@ -88,4 +229,13 @@ msgid ""
 "the event and we have set as our goal the participation and distinction in "
 "the national finals. Along the way we want to develop various skills such as "
 "3D design, knowledge in the field of aerodynamics and marketing."
-msgstr "Η DSA Racing Team είναι σχολική ομάδα της Γερμανικής Σχολής Αθηνών, η οποία αποτελείται από μαθητές λυκείου και λαμβάνει μέρος στην διεθνή διοργάνωση F1-In Schools που διοργανώνεται υπό την αιγίδα της Formula 1 και της FIA. Η ομάδα μας ιδρύθηκε από πρωτοβουλία μαθητών του σχολείου και βρήκε θερμή υποστήριξη από την διοίκηση. Φέτος είναι η πρώτη μας απόπειρα συμμετοχής στον θεσμό και έχουμε βάλει ως στόχο την συμμετοχή και την διάκριση στους εθνικούς τελικούς. Στην πορεία θέλουμε να αναπτύξουμε διάφορες ικανότητες όπως 3D σχεδιασμού, γνώσεις στον τομέα της αεροδυναμικής και του marketing."
+msgstr ""
+"Η DSA Racing Team είναι μια σχολική ομάδα της Γερμανικής Σχολής Αθηνών, η "
+"οποία αποτελείται από μαθητές λυκείου και λαμβάνει μέρος στη διεθνή "
+"διοργάνωση F1-In Schools που διοργανώνεται υπό την αιγίδα της Formula 1 και "
+"της FIA. Η ομάδα μας ιδρύθηκε με πρωτοβουλία των μαθητών του σχολείου και "
+"βρήκε θερμή υποστήριξη από τη διοίκηση. Φέτος είναι η πρώτη μας προσπάθεια "
+"συμμετοχής στη διοργάνωση και έχουμε θέσει ως στόχο τη συμμετοχή και "
+"διάκριση στους εθνικούς τελικούς. Στην πορεία θέλουμε να αναπτύξουμε "
+"διάφορες δεξιότητες όπως ο τρισδιάστατος σχεδιασμός, οι γνώσεις στον τομέα "
+"της αεροδυναμικής και του μάρκετινγκ."
