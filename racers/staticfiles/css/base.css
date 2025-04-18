@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #0d6efd; /* Bootstrap primary blue */
+    --secondary-color: #ffffff; /* White */
+    --accent-color: #ffc107; /* Bootstrap warning yellow */
+    --floating-bg: rgba(0, 0, 0, 0.5);
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+body {
+    background-image: url("../images/image.png");
+    color: var(--secondary-color);
+    /* color: black; */
+    overflow-x: hidden;
+    
+    font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: "Audiowide", sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--secondary-color) !important;
+}
+
+.navbar .dropdown-menu {
+    min-width: auto;
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+.floating-window {
+    background: var(--floating-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.btn-hover {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+}
+
+.floating-window:has(>.hover):hover, .btn-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+img.logo{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+img.logo#linkedIn{
+    width: 80px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+img.logo#facebook{
+    background-color: white; 
+    padding: 5px;
+    border-radius: 10px
+}
+
+img.logo#teamLogo{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 5px;
+}

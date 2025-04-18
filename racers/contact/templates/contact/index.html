@@ -11,20 +11,14 @@
     <h1>{% trans "Do you want to create a request or maybe send a direct email?" %}</h1>
 
     <div class="container">
-        <table>
-            <tr>
-                <td>
-                    <form action="{% url "contactUs-ourContactInfo"%}" method="get">
-                        <button type="submit" class="btn btn-warning btn-hover" id="hover">{% trans "Direct Email" %}</button>
-                    </form>
-                </td>
-                <td>
-                    <form action="{% url "contactUs-createRequest" %}" method="get">
-                        <button type="submit" class="btn btn-warning btn-hover" id="hover">{% trans "Fill out a form" %}</button>
-                    </form>
-                </td>
-            </tr>
-        </table>
+        <div class="button-container">
+            <form action="{% url "contactUs-ourContactInfo" %}" method="get">
+                <button type="submit" class="btn btn-warning btn-hover">{% trans "Direct Email" %}</button>
+            </form>
+            <form action="{% url "contactUs-createRequest" %}" method="get">
+                <button type="submit" class="btn btn-warning btn-hover">{% trans "Fill out a form" %}</button>
+            </form>
+        </div>
     </div>  
 
 {% endblock content %}

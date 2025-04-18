@@ -25,9 +25,9 @@ TEMPLATE_DIR = BASE_DIR / "templates"
 SECRET_KEY = 'django-insecure-5fc%oz36=bl)3ys4&3c@7ffa@yq+z!z7tnuw9e)%($_*6)n^l*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True;
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["dsaracingteam.onrender.com", "127.0.0.1"]
 
 
 # Application definition
@@ -45,10 +45,14 @@ INSTALLED_APPS = [
     "about",
     "goal",
     "competition",
+    "sponsorships"
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+
+    "whitenoise.middleware.WhiteNoiseMiddleware",
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -134,6 +138,8 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
