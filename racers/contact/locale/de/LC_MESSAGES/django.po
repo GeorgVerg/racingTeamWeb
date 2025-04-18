@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-23 17:30+0200\n"
+"POT-Creation-Date: 2025-04-18 20:27+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: contact/models.py:17
+msgid "Question"
+msgstr "Frage"
+
+#: contact/models.py:18
+msgid "Collaboration"
+msgstr "Zusammenarbeit"
+
+#: contact/models.py:19
+msgid "Sponsorship"
+msgstr "Sponsoring"
+
+#: contact/models.py:20
+msgid "Other"
+msgstr "Sonstiges"
 
 #: contact/templates/contact/createRequest.html:12
 msgid "Fill out this form and we will get in contact with you"
@@ -42,11 +58,11 @@ msgstr ""
 "Möchten Sie eine Anfrage erstellen oder vielleicht eine direkte E-Mail "
 "senden?"
 
-#: contact/templates/contact/index.html:18
+#: contact/templates/contact/index.html:16
 msgid "Direct Email"
 msgstr "Direkte E-Mail"
 
-#: contact/templates/contact/index.html:23
+#: contact/templates/contact/index.html:19
 msgid "Fill out a form"
 msgstr "Füllen Sie ein Formular aus"
 
