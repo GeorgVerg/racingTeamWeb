@@ -1,6 +1,8 @@
 :root {
-    --secondary-color: #ffffff; /* White */
-    --accent-color: #ffc107; /* Bootstrap warning yellow */
+    --secondary-color: #ffffff;
+    /* White */
+    --accent-color: #ffc107;
+    /* Bootstrap warning yellow */
 }
 
 table {
@@ -8,11 +10,20 @@ table {
     text-align: center;
 }
 
-td {
-    padding: 30px;
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between the buttons */
+    margin: 20px 0;
 }
 
-form input, form  textarea, form select {
+.button-container>form {
+    display: inline-block;
+}
+
+form input,
+form textarea,
+form select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
