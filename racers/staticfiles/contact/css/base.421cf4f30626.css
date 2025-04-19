@@ -1,0 +1,53 @@
+:root {
+    --secondary-color: #ffffff;
+    /* White */
+    --accent-color: #ffc107;
+    /* Bootstrap warning yellow */
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between the buttons */
+    margin: 20px 0;
+}
+
+.button-container>form {
+    display: inline-block;
+}
+
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button#hover {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+button#hover:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
