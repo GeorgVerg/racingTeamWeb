@@ -13,3 +13,144 @@ a.link {
 a.link:hover {
     text-decoration: underline;
 }
+
+/* Default styles for larger screens */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    min-height: 200px; /* Set a minimum height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    text-align: left; /* Center the text */
+    color: var(--secondary-color);
+    width: 80%; /* Increase width slightly for better readability */
+    max-width: 600px; /* Allow larger content */
+    padding: 20px; /* Add more padding for spacing */
+    box-sizing: border-box; /* Ensure padding doesn’t affect width */
+    word-wrap: break-word; /* Ensure long words break properly */
+    overflow-wrap: break-word; /* Ensure text doesn't overflow */
+}
+
+.carousel-item.active {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.carousel-item.trophy{
+    overflow-y: auto; /* Add vertical scrolling for overflowing content */
+    max-height: 80%; /* Limit the height to 80% of the carousel */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .carousel {
+        min-height: 250px; /* Allow more height for larger content */
+        height: 200px; /* Further reduce height for smaller screens */
+        padding: 10px;
+    }
+
+    .carousel-item {
+        width: 90%; /* Use more width for readability */
+        font-size: 0.9rem; /* Slightly reduce font size */
+        padding: 15px; /* Adjust padding */
+    }
+
+    img.medals {
+        width: 35px; /* Adjust medal size */
+    }
+
+    .carousel-controls button {
+        padding: 8px 16px; /* Adjust button size */
+        font-size: 0.8rem; /* Reduce font size for buttons */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel {
+        min-height: 300px; /* Allow even more height for very small screens */
+        height: 180px; /* Slimmer height for very small screens */
+    }
+
+    .carousel-item {
+        width: 95%; /* Use almost full width */
+        font-size: 0.8rem; /* Further reduce font size */
+        padding: 10px; /* Adjust padding */
+    }
+
+    img.medals {
+        width: 25px; /* Further reduce medal size */
+    }
+
+    .carousel-controls {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px; /* Add spacing between buttons */
+    }
+
+    .carousel-controls button {
+        width: 100%; /* Make buttons full-width */
+    }
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.carousel-controls button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Audiowide", sans-serif;
+}
+
+.carousel-controls button:hover {
+    background-color: var(--accent-color);
+}
+
+#floating-carousel {
+    background: rgb(13,110,253);
+}
+
+img.medals {
+    background-color: var(--secondary-color);
+    height: auto; /* Maintain the aspect ratio */
+    margin-left: 10px; /* Add spacing between the text and the medal */
+    vertical-align: middle; /* Align the medal with the text */
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+img.medals#bronze {
+    width: 50px;
+}
+
+img.medals#silver {
+    width: 57px;
+    transform: translateX(10px);
+}
+
+img.medals#gold {
+    width: 64px;
+    transform: translateX(10px);
+}
+
+img.medals#trophy {
+    width: 71px;
+    transform: translateX(20px);
+}

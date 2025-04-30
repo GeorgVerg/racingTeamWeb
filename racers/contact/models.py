@@ -25,7 +25,7 @@ class ContactRequest(models.Model):
     contact_info = models.ForeignKey(ContactInfo, on_delete=models.CASCADE)
     reason_for_the_inquiry = models.CharField(
         max_length=20,
-        choices=ReasonForRequest,
+        choices=ReasonForRequest.choices,
         default=ReasonForRequest.OTHER,
     )
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-18 20:43+0300\n"
+"POT-Creation-Date: 2025-04-19 19:44+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: German <LL@li.org>\n"
@@ -29,11 +29,11 @@ msgstr ""
 msgid "Greek"
 msgstr ""
 
-#: sponsorships/templates/sponsorships/index.html:9 templates/base.html:31
+#: sponsorships/templates/sponsorships/index.html:10 templates/base.html:31
 msgid "Sponsorships"
 msgstr "Sponsoring"
 
-#: sponsorships/templates/sponsorships/index.html:10
+#: sponsorships/templates/sponsorships/index.html:11
 msgid ""
 "We are a passionate team of students from the Deutsche Schule Athen, "
 "participating in the prestigious F1 in Schools program. This global "
@@ -54,11 +54,11 @@ msgstr ""
 "Sichtbarkeit und Anerkennung durch unsere Reise. Unterstützen Sie uns auf "
 "unserem Weg zum Erfolg!"
 
-#: sponsorships/templates/sponsorships/index.html:12
+#: sponsorships/templates/sponsorships/index.html:13
 msgid "Why Sponsor Us?"
 msgstr "Warum uns sponsern?"
 
-#: sponsorships/templates/sponsorships/index.html:13
+#: sponsorships/templates/sponsorships/index.html:14
 msgid ""
 "Sponsoring our team is not just about supporting a group of students; it's "
 "about investing in the future of engineering and technology. By partnering "
@@ -68,37 +68,37 @@ msgstr ""
 "unterstützen – es ist eine Investition in die Zukunft von Technik und "
 "Ingenieurwesen. Durch eine Partnerschaft mit uns können Sie:"
 
-#: sponsorships/templates/sponsorships/index.html:15
+#: sponsorships/templates/sponsorships/index.html:16
 msgid "Support education and innovation in the field of engineering."
 msgstr "Bildung und Innovation im Ingenieurwesen fördern."
 
-#: sponsorships/templates/sponsorships/index.html:16
+#: sponsorships/templates/sponsorships/index.html:17
 msgid ""
 "Gain visibility through our promotional materials, social media, and events."
 msgstr ""
 "Sichtbarkeit durch unsere Werbematerialien, Social Media und Veranstaltungen "
 "gewinnen."
 
-#: sponsorships/templates/sponsorships/index.html:17
+#: sponsorships/templates/sponsorships/index.html:18
 msgid ""
 "Be part of a community that values teamwork, creativity, and excellence."
 msgstr ""
 "Teil einer Gemeinschaft werden, die Teamarbeit, Kreativität und Exzellenz "
 "schätzt."
 
-#: sponsorships/templates/sponsorships/index.html:18
+#: sponsorships/templates/sponsorships/index.html:19
 msgid "Help us compete at national and international levels."
 msgstr "Uns helfen, auf nationaler und internationaler Ebene anzutreten."
 
-#: sponsorships/templates/sponsorships/index.html:19
+#: sponsorships/templates/sponsorships/index.html:20
 msgid "Inspire the next generation of engineers and innovators."
 msgstr "Die nächste Generation von Ingenieuren und Innovatoren inspirieren."
 
-#: sponsorships/templates/sponsorships/index.html:22
+#: sponsorships/templates/sponsorships/index.html:23
 msgid "How to Sponsor Us"
 msgstr "Wie Sie uns sponsern können"
 
-#: sponsorships/templates/sponsorships/index.html:23
+#: sponsorships/templates/sponsorships/index.html:24
 msgid ""
 "If you are interested in sponsoring our team, please reach out to us via "
 "email at "
@@ -106,11 +106,11 @@ msgstr ""
 "Wenn Sie Interesse haben, unser Team zu sponsern, kontaktieren Sie uns bitte "
 "per E-Mail unter "
 
-#: sponsorships/templates/sponsorships/index.html:23
+#: sponsorships/templates/sponsorships/index.html:24
 msgid " or contact us through the "
 msgstr " oder über das "
 
-#: sponsorships/templates/sponsorships/index.html:23
+#: sponsorships/templates/sponsorships/index.html:24
 msgid ""
 "form on our website</a>. We would be happy to discuss sponsorship "
 "opportunities and how we can work together to achieve our goals."
@@ -118,11 +118,11 @@ msgstr ""
 "Formular auf unserer Website</a>. Wir freuen uns, über "
 "Sponsoringmöglichkeiten zu sprechen und gemeinsam unsere Ziele zu erreichen."
 
-#: sponsorships/templates/sponsorships/index.html:25
+#: sponsorships/templates/sponsorships/index.html:31
 msgid "Sponsorship Tiers"
 msgstr "Sponsoring-Stufen"
 
-#: sponsorships/templates/sponsorships/index.html:26
+#: sponsorships/templates/sponsorships/index.html:32
 msgid ""
 "We offer various sponsorship tiers to accommodate different levels of "
 "support. Each tier comes with its own set of benefits, ensuring that your "
@@ -132,7 +132,7 @@ msgstr ""
 "Unterstützungsniveaus gerecht zu werden. Jede Stufe bietet eigene Vorteile "
 "und stellt sicher, dass Ihr Beitrag anerkannt und geschätzt wird."
 
-#: sponsorships/templates/sponsorships/index.html:28
+#: sponsorships/templates/sponsorships/index.html:34
 msgid ""
 "Of course, if you wish to support us with a different amount or contribute "
 "by giving us raw materials, we are open to discussing custom sponsorship "
@@ -141,33 +141,50 @@ msgstr ""
 "Natürlich sind wir auch offen für individuelle Sponsoringoptionen – sei es "
 "ein anderer Betrag oder die Bereitstellung von Materialien."
 
-#: sponsorships/templates/sponsorships/index.html:34
-msgid "Benefits"
+#: sponsorships/templates/sponsorships/index.html:39
+#: sponsorships/templates/sponsorships/index.html:46
+#: sponsorships/templates/sponsorships/index.html:54
+#: sponsorships/templates/sponsorships/index.html:63
+msgid "Benefits:"
 msgstr "Vorteile"
 
-#: sponsorships/templates/sponsorships/index.html:43
+#: sponsorships/templates/sponsorships/index.html:41
+#: sponsorships/templates/sponsorships/index.html:48
+#: sponsorships/templates/sponsorships/index.html:56
+#: sponsorships/templates/sponsorships/index.html:65
 msgid "Mention in social media posts"
 msgstr "Erwähnung in Social-Media-Beiträgen"
 
-#: sponsorships/templates/sponsorships/index.html:50
+#: sponsorships/templates/sponsorships/index.html:49
+#: sponsorships/templates/sponsorships/index.html:57
+#: sponsorships/templates/sponsorships/index.html:66
 msgid "Mention on the team's website"
 msgstr "Erwähnung auf der Website des Teams"
 
-#: sponsorships/templates/sponsorships/index.html:57
+#: sponsorships/templates/sponsorships/index.html:58
+#: sponsorships/templates/sponsorships/index.html:67
 msgid "Mention in portfolios"
 msgstr "Erwähnung in Portfolios"
 
-#: sponsorships/templates/sponsorships/index.html:64
+#: sponsorships/templates/sponsorships/index.html:68
 msgid "Mention at the team's booth during national finals"
 msgstr "Erwähnung am Stand des Teams während des nationalen Finales"
 
-#: sponsorships/templates/sponsorships/index.html:71
+#: sponsorships/templates/sponsorships/index.html:69
 msgid "Mention on the team's apparel"
 msgstr "Erwähnung auf der Teamkleidung"
 
-#: sponsorships/templates/sponsorships/index.html:78
+#: sponsorships/templates/sponsorships/index.html:70
 msgid "Mention on the team's car"
 msgstr "Erwähnung auf dem Auto des Teams"
+
+#: sponsorships/templates/sponsorships/index.html:75
+msgid "Previous Tier"
+msgstr "Vorige Stufe"
+
+#: sponsorships/templates/sponsorships/index.html:76
+msgid "Next Tier"
+msgstr "Nächste Stufe"
 
 #: templates/base.html:8
 msgid "F1 in Schools - Team"
@@ -177,39 +194,39 @@ msgstr ""
 msgid "F1 Team"
 msgstr ""
 
-#: templates/base.html:28 templates/base.html:61
+#: templates/base.html:28 templates/base.html:62
 msgid "About Us"
 msgstr "Über uns"
 
-#: templates/base.html:29 templates/base.html:62
+#: templates/base.html:29 templates/base.html:63
 msgid "Our Goal"
 msgstr "Unser Ziel"
 
-#: templates/base.html:30 templates/base.html:63
+#: templates/base.html:30 templates/base.html:64
 msgid "The Competition"
 msgstr "Der Wettbewerb"
 
-#: templates/base.html:32 templates/base.html:64
+#: templates/base.html:32 templates/base.html:65
 msgid "Contact Us"
 msgstr "Kontakt"
 
-#: templates/base.html:58
+#: templates/base.html:59
 msgid "Quick Links"
 msgstr ""
 
-#: templates/base.html:60
+#: templates/base.html:61
 msgid "Home"
 msgstr ""
 
-#: templates/base.html:69
+#: templates/base.html:70
 msgid "Contact"
 msgstr "Kontakt"
 
-#: templates/base.html:71
+#: templates/base.html:72
 msgid "Phone"
 msgstr "Telefon"
 
-#: templates/base.html:75
+#: templates/base.html:76
 msgid "Follow Us"
 msgstr ""
 
@@ -227,4 +244,13 @@ msgid ""
 "the event and we have set as our goal the participation and distinction in "
 "the national finals. Along the way we want to develop various skills such as "
 "3D design, knowledge in the field of aerodynamics and marketing."
-msgstr "Das DSA Racing Team ist ein Schulteam der Deutschen Schule Athen, das aus Oberstufenschülern besteht und an der internationalen Veranstaltung F1-In Schools teilnimmt, die unter der Schirmherrschaft der Formel 1 und der FIA organisiert wird. Unser Team wurde auf Initiative von Schülerinnen und Schülern gegründet und fand die freundliche Unterstützung der Schulleitung. In diesem Jahr nehmen wir zum ersten Mal an der Veranstaltung teil und haben uns als Ziel die Teilnahme und Auszeichnung im nationalen Finale gesetzt. Auf dem Weg dorthin wollen wir verschiedene Fähigkeiten wie 3D-Design, Kenntnisse im Bereich der Aerodynamik und Marketing entwickeln."
+msgstr ""
+"Das DSA Racing Team ist ein Schulteam der Deutschen Schule Athen, das aus "
+"Oberstufenschülern besteht und an der internationalen Veranstaltung F1-In "
+"Schools teilnimmt, die unter der Schirmherrschaft der Formel 1 und der FIA "
+"organisiert wird. Unser Team wurde auf Initiative von Schülerinnen und "
+"Schülern gegründet und fand die freundliche Unterstützung der Schulleitung. "
+"In diesem Jahr nehmen wir zum ersten Mal an der Veranstaltung teil und haben "
+"uns als Ziel die Teilnahme und Auszeichnung im nationalen Finale gesetzt. "
+"Auf dem Weg dorthin wollen wir verschiedene Fähigkeiten wie 3D-Design, "
+"Kenntnisse im Bereich der Aerodynamik und Marketing entwickeln."
