@@ -33,15 +33,18 @@
         </p>
         <p>{% trans "Of course, if you wish to support us with a different amount or contribute by giving us raw materials, we are open to discussing custom sponsorship options that suit your needs." %}
         </p>
-        <div id="tier-carousel" class="carousel">
-            <div class="carousel-item active floating-window" id="floating-carousel" data-tier="Bronze">
+        
+        <div class="floating-window" id="tier"  data-tier="Bronze">
+            <div class="hover">
                 <h3>Bronze Tier (100€-200€) <img src="{% static "sponsorships/images/medals/bronzeMedalFINAL.png" %}" alt="" class="medals" id="bronze"></h3>
                 <p>{% trans "Benefits:" %}</p>
                 <ul>
                     <li>{% trans "Mention in social media posts" %}</li>
                 </ul>
             </div>
-            <div class="carousel-item floating-window" id="floating-carousel" data-tier="Silver">
+        </div>
+        <div class="floating-window" id="tier" data-tier="Silver">
+            <div class="hover">
                 <h3>Silver Tier (300€-500€) <img src="{% static "sponsorships/images/medals/silverMedalFINAL.png" %}" alt="" class="medals" id="silver"></h3>
                 <p>{% trans "Benefits:" %}</p>
                 <ul>
@@ -49,7 +52,9 @@
                     <li>{% trans "Mention on the team's website" %}</li>
                 </ul>
             </div>
-            <div class="carousel-item floating-window" id="floating-carousel" data-tier="Gold">
+        </div>
+        <div class="floating-window" id="tier"  data-tier="Gold">
+            <div class="hover">
                 <h3>Gold Tier (700€-1000€) <img src="{% static "sponsorships/images/medals/goldMedalFINAL.png" %}" alt="" class="medals" id="gold"></h3>
                 <p>{% trans "Benefits:" %}</p>
                 <ul>
@@ -58,7 +63,9 @@
                     <li>{% trans "Mention in portfolios" %}</li>
                 </ul>
             </div>
-            <div class="carousel-item floating-window trophy" id="floating-carousel" data-tier="Platinum">
+        </div>
+        <div class="floating-window trophy" id="tier" data-tier="Platinum">
+            <div class="hover">
                 <h3>Platinum Tier (>1000€) <img src="{% static "sponsorships/images/medals/trophyMedalFINAL.png" %}" alt="" class="medals" id="trophy"></h3>
                 <p>{% trans "Benefits:" %}</p>
                 <ul>
@@ -71,13 +78,5 @@
                 </ul>
             </div>
         </div>
-        <div class="carousel-controls">
-            <button id="prev-btn" class="btn-hover">{% trans "Previous Tier" %}</button>
-            <button id="next-btn" class="btn-hover">{% trans "Next Tier" %}</button>
-        </div>
     </div>
 {% endblock %}
-
-{% block jsBlock %}
-    <script src="{% static "sponsorships/js/carousel.js" %}"></script>
-{% endblock jsBlock %}

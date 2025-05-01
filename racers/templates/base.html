@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{% trans "F1 in Schools - Team" %}{% endblock %}</title>
+    <title>{% block title %}STEM Racing Team{% endblock %}</title>
     
     <link rel="stylesheet" href={% static "css/bootstrap/dist/css/bootstrap.min.css" %}>
     <link rel="stylesheet" href={% static 'css/base.css' %}>
@@ -19,7 +19,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static "images/Logos/teamLogo.jpg" %}" class="logo" id="teamLogo" alt="">{% trans "F1 Team" %}</a>
+            <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static "images/Logos/teamLogo.jpg" %} " class="logo" id="teamLogo" alt=""><img src="{% static 'images/Logos/STEM-RACING-logo.png' %}" class="logo" id="STEM" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
